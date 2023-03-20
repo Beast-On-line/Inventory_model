@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base color #BBD6B8    
+primary color #AEC2B6
+secondary color #94AF9F
+third color #DBE4C6 */
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.page {
+  display: flex;
+}
+
+.navigation {
+  background-color: #dbe4c6;
+  width: 20%;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 25px;
+  margin-top: 7rem;
+}
+
+.list-items {
+  display: grid;
+  justify-content: center;
+}
+
+.list-items ul {
+  list-style: none;
+}
+
+.list-items li {
+  font-size: 20px;
+  font: 300;
+  margin-top: 1.5rem;
+}
+
+/* Main Section Css  */
+
+.main {
+  background-color: #aec2b6;
+  width: 80%;
+  height: 100vh;
+}
+.searchbar {
+  width: 30%;
+  height: 25px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #e3e7d8;
+  border-radius: 5px;
+  border: none;
+  color: black;
+}
+
+.line {
+  background-color: #94af9f;
+  width: 100%;
+  height: 3px;
+  margin-top: 1rem;
+}
+
+.main .heading {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 35px;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+}
+
+.card1 {
+  width: 20%;
+  height: 120px;
+  background-color: #94af9f;
+  margin: auto;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1:hover {
+  background-color: #e3e7d8;
+}
