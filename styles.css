@@ -98,3 +98,10 @@ body {
 .card1:hover {
   background-color: #e3e7d8;
 }
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
