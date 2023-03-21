@@ -99,9 +99,36 @@ body {
   background-color: #e3e7d8;
 }
 
-table,
-th,
-td {
-  border: 1px solid black;
+.updates h2 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content-table {
   border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+.content-table thead tr {
+  background-color: #94af9f;
+  text-align: left;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #e3e7d8;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #bbd6b8;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 3px solid #94af9f;
 }

@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
     <title>Inventory</title>
   </head>
   <body>
@@ -13,10 +18,10 @@
         <div class="heading"><h1>INventory</h1></div>
         <div class="list-items">
           <ul>
-            <li>Dashboard</li>
-            <li>Settings</li>
-            <li>Create New</li>
-            <li>Orders</li>
+            <li><i class="fa fa-house"></i> Dashboard</li>
+            <li><i class="fa-solid fa-gear"></i> Settings</li>
+            <li><i class="fa-solid fa-cart-plus"></i> Create New</li>
+            <li><i class="fa-solid fa-store"></i> Orders</li>
           </ul>
         </div>
       </div>
@@ -50,22 +55,76 @@
         <div class="updates">
           <h2>Recent Delivieries</h2>
 
-          <table>
-            <tr>
-              <th>Product</th>
-              <th>Stock Left</th>
-              <th>Requirement</th>
-              <th>Price</th>
-              <th>Dealer</th>
-            </tr>
-            <tr>
-              <td>January</td>
-              <td>$100</td>
-            </tr>
-            <tr>
-              <td>February</td>
-              <td>$80</td>
-            </tr>
+          <table class="content-table">
+            <thead>
+              <tr>
+                <th>Sign No.</th>
+                <th>Product</th>
+                <th>Stock Left</th>
+                <th>Requirement</th>
+                <th>Price</th>
+                <th>Dealer</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>1.</td>
+                <td>Iphone 13 Pro</td>
+                <td>80</td>
+                <td>30</td>
+                <td>$989</td>
+                <td>Inspire</td>
+              </tr>
+              <tr>
+                <td>2.</td>
+                <td>Iphone 13</td>
+                <td>90</td>
+                <td>10</td>
+                <td>$859</td>
+                <td>Inspire</td>
+              </tr>
+              <tr>
+                <td>3.</td>
+                <td>Iphone 13 mini</td>
+                <td>100</td>
+                <td>00</td>
+                <td>$699</td>
+                <td>Inspire</td>
+              </tr>
+              <tr>
+                <td>4.</td>
+                <td>Iphone 12 Pro</td>
+                <td>65</td>
+                <td>35</td>
+                <td>$799</td>
+                <td>Inspire</td>
+              </tr>
+              <tr>
+                <td>5.</td>
+                <td>Iphone 12</td>
+                <td>10</td>
+                <td>90</td>
+                <td>$699</td>
+                <td>Inspire</td>
+              </tr>
+              <tr>
+                <td>6.</td>
+                <td>Iphone 12 mini</td>
+                <td>70</td>
+                <td>30</td>
+                <td>$559</td>
+                <td>Inspire</td>
+              </tr>
+              <tr>
+                <td>7.</td>
+                <td>Iphone 11 pro</td>
+                <td>95</td>
+                <td>05</td>
+                <td>$639</td>
+                <td>Inspire</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
