@@ -66,6 +66,15 @@ body {
   color: black;
 }
 
+.search-btn {
+  border: none;
+  background-color: #94af9f;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
 .line {
   background-color: #94af9f;
   width: 100%;
